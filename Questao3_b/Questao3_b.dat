@@ -1,0 +1,20 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: joao
+ * Creation Date: 07/12/2018 at 17:11:35
+ *********************************************/
+  
+  SheetConnection sheet("Questao3_b.xlsx"); 
+
+n from SheetRead(sheet,"Folha1!n");
+cNorte from SheetRead(sheet,"Folha1!cNorte");
+cOeste from SheetRead(sheet,"Folha1!cOeste");
+cSul from SheetRead(sheet,"Folha1!cSul");
+cEste from SheetRead(sheet,"Folha1!cEste");
+retardamento from SheetRead(sheet,"Folha1!retardamento");
+recursos from SheetRead(sheet,"Folha1!recursos");
+intervalo from SheetRead(sheet,"Folha1!intervalo");
+
+y to SheetWrite(sheet,"Folha1!y");
+x to SheetWrite(sheet,"Folha1!x");
+t to SheetWrite(sheet,"Folha1!t");

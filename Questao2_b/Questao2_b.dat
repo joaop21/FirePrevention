@@ -1,0 +1,20 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: joao
+ * Creation Date: 05/12/2018 at 12:18:10
+ *********************************************/
+ SheetConnection sheet("Questao2_b.xlsx"); 
+
+n from SheetRead(sheet,"Folha1!n");
+cNorte from SheetRead(sheet,"Folha1!cNorte");
+cOeste from SheetRead(sheet,"Folha1!cOeste");
+cSul from SheetRead(sheet,"Folha1!cSul");
+cEste from SheetRead(sheet,"Folha1!cEste");
+retardamento from SheetRead(sheet,"Folha1!retardamento");
+recursos from SheetRead(sheet,"Folha1!recursos");
+nodoProtegido from SheetRead(sheet,"Folha1!nodoP");
+
+y to SheetWrite(sheet,"Folha1!y");
+x to SheetWrite(sheet,"Folha1!x");
+
+ 

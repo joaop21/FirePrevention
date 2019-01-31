@@ -1,0 +1,15 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: MDIOMasters
+ * Creation Date: 27/11/2018 at 23:12:49
+ *********************************************/
+
+ SheetConnection sheet("Questao1_d.xlsx"); 
+
+n from SheetRead(sheet,"Folha1!n");
+cNorte from SheetRead(sheet,"Folha1!cNorte");
+cOeste from SheetRead(sheet,"Folha1!cOeste");
+cSul from SheetRead(sheet,"Folha1!cSul");
+cEste from SheetRead(sheet,"Folha1!cEste");
+
+y to SheetWrite(sheet,"Folha1!y");
